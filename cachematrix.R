@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This computes the inverse of the cached matrix, only if it has not been
-## computes before, or if the matrix has been modified since it was last
+## computed before, or if the matrix has been modified since it was last
 ## computed
 
 cacheSolve <- function(x) {
